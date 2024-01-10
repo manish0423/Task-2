@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <nav>
+        <div id="name">
+            <h1>Cognifyz</h1>
+        </div> 
+
+        <div>
+            <h2 onclick="toggleMenu()">𓃑</h2>
+        </div>
+
+        <div id="menus">
+            <hr><a href="#home">Home</a><hr>
+            <a href="#internships">Internship</a><hr>
+            <a href="#contact">Contact</a><hr>
+        </div>
+    </nav>
+    <marquee scrollamount="8">Web Developer Internship Opportunities at Cognifyz Technologies</marquee>
+    <div id="home">
+        <img src="logo.PNG" alt="image"/>
+        <p>
+            <b>Cognifyz Technologies-Where Data meets intelligence.</b><br><br>
+            Cognifyz Technologies is <b>Nagpur, Maharashtra</b> based is a technology company that provides software solutions for businesses. 
+            The company offers a range of products and services, including artificial intelligence (AI), 
+            machine learning (ML), and data analytics tools.
+            <br><br><br>One of the main offerings of Cognifyz Technologies is their AI-powered chatbot platform, 
+            which can be integrated with various communication channels such as websites, social media, and messaging apps. 
+                The chatbot platform allows businesses to automate their customer support and engagement, reduce response time, and improve customer satisfaction.
+
+            <br><br><br>Cognifyz Technologies also provides training programs to enhance skills and knowledge in these areas.
+            The company focuses on delivering innovative and cutting-edge solutions to meet the evolving needs of businesses.
+            
+        </p>
+    </div>
+
+    <div id="internship">
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function toggleMenu() 
+        {
+          var menu = document.querySelector('#menus');
+          menu.classList.toggle('show');
+        }
+    </script>
+
+</body>
+</html>
